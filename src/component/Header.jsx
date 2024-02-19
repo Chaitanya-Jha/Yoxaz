@@ -4,7 +4,7 @@ const Header = () => {
   const [isHomePage, setIsHomePage] = useState(false);
   useEffect(() => {
     setIsHomePage(window.location === "/");
-  }, [window.location]);
+  }, []);
   const handleCreateNew = () => {
     window.location.href = "/create-new";
   };
