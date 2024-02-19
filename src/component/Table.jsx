@@ -32,7 +32,7 @@ import {
 } from "@mui/material";
 import EditNoteIcon from "@mui/icons-material/EditNote";
 import SaveIcon from "@mui/icons-material/Save";
-import Data from "../Data.json";
+import Data from "./Data.json";
 const rows = Data;
 function descendingComparator(a, b, orderBy) {
   if (b[orderBy] < a[orderBy]) {
